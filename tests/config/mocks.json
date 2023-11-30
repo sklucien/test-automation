@@ -1,0 +1,28 @@
+[
+  {
+    "httpRequest": {
+      "path": "/books"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": [
+        {
+          "id": "44c8580d-1f8a-4d75-bb19-e82749442a5e",
+          "author": {
+            "firstname": "Dan",
+            "lastname": "Brown"
+          },
+          "name": "The Da Vinci Code"
+        },
+        {
+          "id": "23acd43b-51a5-45c0-80f5-e16914bf32b8",
+          "author": {
+            "firstname": "Dan",
+            "lastname": "Brown"
+          },
+          "name": "Inferno"
+        }
+      ]
+    }
+  }
+]

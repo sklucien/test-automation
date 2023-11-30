@@ -1,0 +1,13 @@
+version: "2.4"
+services:
+  mockServer:
+    image: mockserver/mockserver:5.14.0
+    ports:
+      - 1080:1080
+    environment:
+      MOCKSERVER_LOG_LEVEL: DEBUG
+      MOCKSERVER_INITIALIZATION_JSON_PATH: /config/mocks.json
+    volumes:
+      - type: bind
+        source: ./tests/config
+        target: /config
