@@ -24,5 +24,27 @@
         }
       ]
     }
+  },
+  {
+    "httpRequest": {
+      "path": "/users"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": [
+        {
+          "id": 1,
+          "email": "lolo@gmail.com"
+        },
+        {
+          "id": 2,
+          "email": "lala@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "lili@gmail.com"
+        }
+      ]
+    }
   }
 ]
