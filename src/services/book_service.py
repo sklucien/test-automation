@@ -8,4 +8,5 @@ class BookService:
 
     def list_books_authors(self):
         books = self.book_fetcher_service.get_books()
+
         return list(set(map(lambda book: book['author']['lastname'] + ' ' + book['author']['firstname'], books)))
