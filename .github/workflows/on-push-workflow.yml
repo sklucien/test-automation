@@ -15,4 +15,7 @@ jobs:
         run: python -c "import sys; print(sys.version)"
 
       - name: Install dependencies
+        run: pip install --no-cache-dir -r requirements.txt
+
+      - name: Execute unit tests
         run: pytest
