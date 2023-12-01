@@ -1,5 +1,5 @@
-from services.string_service import to_lowercase
-from services.user_fetcher_service import UserFetcherService
+from .string_service import to_lowercase
+from .user_fetcher_service import UserFetcherService
 
 
 class UserService:
